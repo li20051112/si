@@ -45,6 +45,7 @@ class Extension:
             setattr(self, field, d[field])
 
     def read_info_from_repo(self):
+        return
         if self.is_builtin or self.have_info_from_repo:
             return
 
